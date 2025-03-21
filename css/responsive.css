@@ -1,0 +1,180 @@
+@media only screen and (min-width: 1920px) {
+
+
+}
+
+@media (max-width: 1399.98px) {
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1900px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+}
+
+@media (max-width: 1199.98px) {
+  .display-4{
+    font-size: 54px;
+    margin-bottom: 20px;
+  }
+  
+  .secH {
+    font-size: 28px;
+    margin-bottom: 34px;
+  }
+  
+}
+
+@media (max-width: 991.98px) {
+  .display-4{
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+
+  
+.navbar-nav {
+  gap: 4px;
+}
+
+
+
+.navbar-nav .nav-link.active:before{
+  display: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+.dropdown-menu[data-bs-popper] {
+  width: auto;
+}
+.dropdown-menu {
+  border: none;
+}
+.footWrap>.row,.productSection .container>.row{ 
+row-gap: 30px;
+}
+}
+
+
+
+@media (max-width: 767.98px) {
+  .display-4{
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .secH {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .therdH {
+    font-size: 20px;
+    margin: 0 0 8px;
+  }
+
+  .footer.defaultPadding{
+    padding: 34px 0;
+  }
+  .footer .secH{
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .footer .container>.row{
+    justify-content: center;
+    row-gap: 40px;
+  }
+  
+  .footer .social-icons{
+  justify-content: center;
+  }
+  .footerLinkWrap {
+   justify-content: center;
+}
+
+  .footer-brand{
+    display: table !important;
+    margin: auto;
+  }
+  .footer {
+    text-align:center;
+  }
+  .footer .locationLink{
+    max-width: 200px;
+  }
+  
+  .footer .contact-info{
+    padding-left: 0;
+  }
+  
+}
+
+
+
+@media (max-width: 575.98px) {
+
+  .display-4{
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  
+  .footer ul:not(.footerLinkWrap ul) {
+    width: 238px;
+    max-width: 238px;
+  }
+  .footerLinkWrap {
+    gap: 0px;
+}
+
+    .navbar-brand{
+      margin-left: 40px;
+    }
+    .bestInvisbleGrill  .cardWrap{
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .bestInvisbleGrill .cardlogo {
+      width: 150px;
+      margin-bottom: 16px;
+    }
+
+}
+
+@media only screen and (max-height: 539.98px) {
+  #ca1.owl-carousel .item {
+    padding: 80px 12px;
+    background-color: red;
+    height: unset;
+  }
+  #ca1.owl-carousel .item > .row {
+    position: relative;
+    left: unset;
+    top: unset;
+    transform: unset;
+    width: auto;
+  }
+}
+@media only screen and (max-height: 539.98px) and (max-width: 1024px) {
+  #ca1.owl-carousel .item {
+    padding: 80px 12px;
+    background-color: red;
+    height: unset;
+  }
+  #ca1.owl-carousel .item > .row {
+    position: relative;
+    left: unset;
+    top: unset;
+    transform: unset;
+    width: auto;
+  }
+  .desktopImg {
+    display: block !important;
+  }
+  .mobileImg {
+    display: none !important;
+  }
+}
