@@ -231,6 +231,11 @@ color: var(--primary-color);
   border-color: #00000011;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+  color: var(--primary-color);
+  background-color: transparent;
+}
+
 
 
 .navbar > .container {
